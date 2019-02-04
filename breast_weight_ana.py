@@ -34,7 +34,8 @@ def two_example():
 
             else:
                 print('No checkpoint file found')
-
+    # count和breast的shape中的column 列数一致，breast中包含label
+    # count中有针对bias_weight的统计，都等于len(feature_columns)+1
     print("count: ",count)
 if __name__ == '__main__':
     two_example()
