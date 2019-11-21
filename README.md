@@ -1,2 +1,4 @@
 # explain
 获取tensorflow训练出的模型的权重测试
+# read_tf_count说明
+read_tf_count 是一个针对于example格式进行统计的py文件。当前的example格式是bert中针对squad1.1产出的example文件进行的测试
